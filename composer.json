@@ -1,0 +1,6 @@
+{
+	"minimum-stability":"dev",
+	"require": {
+		"strukt/commons": "v1.0.8-alpha"
+	}
+}

@@ -1,0 +1,144 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c747ff37b99f3443164c901b085f60a8",
+    "packages": [
+        {
+            "name": "strukt/commons",
+            "version": "v1.0.8-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samweru/strukt-commons.git",
+                "reference": "1afb7525f0eebda1a15ca7a959150b6c1c3ab2b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samweru/strukt-commons/zipball/1afb7525f0eebda1a15ca7a959150b6c1c3ab2b1",
+                "reference": "1afb7525f0eebda1a15ca7a959150b6c1c3ab2b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "strukt/math": "v1.0.1-alpha"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Strukt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Moderator",
+                    "email": "pitsolu@gmail.com"
+                }
+            ],
+            "description": "Strukt Common Utilities",
+            "support": {
+                "issues": "https://github.com/samweru/strukt-commons/issues",
+                "source": "https://github.com/samweru/strukt-commons/tree/v1.0.8-alpha"
+            },
+            "time": "2022-06-12T21:38:08+00:00"
+        },
+        {
+            "name": "strukt/event",
+            "version": "v1.0.0-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samweru/strukt-event.git",
+                "reference": "a564a259bd2bfc7b1009acf9cbf0f7755b920334"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samweru/strukt-event/zipball/a564a259bd2bfc7b1009acf9cbf0f7755b920334",
+                "reference": "a564a259bd2bfc7b1009acf9cbf0f7755b920334",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-0": {
+                    "Strukt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "samweru",
+                    "email": "pitsolu@gmail.com"
+                }
+            ],
+            "description": "No event loop included!",
+            "support": {
+                "issues": "https://github.com/samweru/strukt-event/issues",
+                "source": "https://github.com/samweru/strukt-event/tree/v1.0.0-alpha"
+            },
+            "time": "2022-05-17T11:41:52+00:00"
+        },
+        {
+            "name": "strukt/math",
+            "version": "v1.0.1-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samweru/strukt-math.git",
+                "reference": "b730d6ee3fcd408ac43466e161d236eef1250b39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samweru/strukt-math/zipball/b730d6ee3fcd408ac43466e161d236eef1250b39",
+                "reference": "b730d6ee3fcd408ac43466e161d236eef1250b39",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "strukt/event": "v1.0.0-alpha"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Strukt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel Weru",
+                    "email": "pitsolu@gmail.com"
+                }
+            ],
+            "description": "Math Operations",
+            "support": {
+                "issues": "https://github.com/samweru/strukt-math/issues",
+                "source": "https://github.com/samweru/strukt-math/tree/v1.0.1-alpha"
+            },
+            "time": "2022-06-12T20:20:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
